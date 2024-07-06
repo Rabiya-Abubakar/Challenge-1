@@ -22,7 +22,7 @@ index.js: The main file that runs the program.
 helper.js: Contains helper functions used in the program.
 
 Enter student marks Rabiya: 85  
-Grade: A
+it prints: Grade: A
 
 Enter student marks Mryam: 70
 it prints: Grade: B

@@ -21,7 +21,7 @@ FILES
 index.js: The main file that runs the program.
 helper.js: Contains helper functions used in the program.
 
-Enter student marks Rabiya : 85  
+Enter student marks Rabiya: 85  
 Grade: A
 
 Enter student marks Mryam: 70

@@ -1,89 +1,95 @@
-###  Wk1 Code Challenge - CompulsoryChallenge-1 ###
+# Coding Challenges
 
-******  Week 1 Toy problems Prerequisites *****
+## Prerequisites
 
-Prerequisites: 
+1. **Create a repository on your GitHub account.**
+   - NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
 
-1. Create a repository on your GitHub account. 
+2. **Use JavaScript to wire down the solution.**
 
-NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
+3. **Push the solution to the above repository once done.**
 
-2. Use JavaScript to wire down the solution.
+4. **Submit the repository link for grading.**
 
-3. Push the solution to the above repository once done.
+5. **Ensure your repository has a well-written README.**
 
-4. Submit the repository link for grading.
+**NOTE**: You are required to complete **ALL** the challenges.
 
-5. Ensure your repository has a well-written README.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-NOTE: You are required to complete ALL the challenges.
+## Challenge 1: Student Grade Generator (Toy Problem)
 
- 
+Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond to the correct grade, as shown below:
 
-Challenge 1: Student Grade Generator (Toy Problem)
+- A > 79
+- B - 60 to 79
+- C - 59 to 49
+- D - 40 to 49
+- E - less than 40
 
-Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond to the correct grade, as shown below: 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+## Challenge 2: Speed Detector (Toy Problem)
 
- 
+Write a program that takes the speed of a car as input (e.g., 80). If the speed is less than 70, it should print “OK”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
-Challenge 2: Speed Detector (Toy Problem)
+- For example, if the speed is 80, it should print: “Points: 2”.
+- If the driver gets more than 12 points, the function should print: “License suspended”.
 
-Write a program that takes the speed of a car as input e.g. 80. If the speed is less than 70, it should print “OK”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+## Challenge 3: Net Salary Calculator (Toy Problem)
 
- 
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e., Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
 
-Challenge 3: Net Salary Calculator (Toy Problem)
+**NB**: Use KRA, NHIF, and NSSF values provided in the links below:
 
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+- [KRA Tax Rates](https://www.aren.co.ke/payroll/taxrates.htm)
+- [KRA PAYE Calculator](https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye)
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+## Extra Practice Questions ##
 
-Links to an external site.-  Links to an external site.Links to an external site.
+### Bubble Sort
 
-- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
-
-
-Extra Practice Questions:
-
-(BubbleSort)
 1. Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
 
-sample input = [5,6,1,3,4,2]
-Expected output = [1,2,3,4,5,6]
+   - **Sample Input**: `[5,6,1,3,4,2]`
+   - **Expected Output**: `[1,2,3,4,5,6]`
 
-Research Areas: 
-1. Loops 
-2. Array Methods 
+   **Research Areas**:
+   1. Loops
+   2. Array Methods
 
+### Staircase Problem
 
-(Loops)
-2. Staircase problem 
-Create a function that takes an integer and console logs a step shaped stair with the integer levels using the # character 
+2. Create a function that takes an integer and console logs a step-shaped stair with the integer levels using the `#` character.
 
-e.g steps(2)  #
-              ##
+   - **Example**:
+     - `steps(2)`:
+       ```
+       #
+       ##
+       ```
+     - `steps(3)`:
+       ```
+       #
+       ##
+       ###
+       ```
 
-    steps(3)  #
-              ##
-              ###
+   **Research Areas**:
+   1. Array methods
+   2. Nested Loops
+   3. Conditional statements
 
-Research Areas 
-1. Array methods 
-2. Nested Loops
-3. Conditional statements
+### Volume of a Cylinder
 
+3. Write a JavaScript program to get the volume of a cylinder with four decimal places using object classes.
+   - **Volume of a cylinder**: `V = πr²h` where `r` is the radius and `h` is the height of the cylinder.
 
-(Objects)
-3. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
-The volume of a cylinder: V = πr2h where r is the radius and h is the height of the cylinder.
-
-Research Areas 
-1. Objects. 
-2. Object constructor.
-3. constructor templates.
+   **Research Areas**:
+   1. Objects
+   2. Object constructor
+   3. Constructor templates

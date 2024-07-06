@@ -25,13 +25,13 @@ Enter student marks Rabiya: 85
 Grade: A
 
 Enter student marks Mryam: 70
-Grade: B
+it prints: Grade: B
 
 Enter student marks Aisha: 55
-Grade: C
+it prints: Grade: C
 
 Enter student marks Nuhu: 45
-Grade: D
+it prints: Grade: D
 
 Enter student marks Muhammad: 30
-Grade: E
+it prints: Grade: E

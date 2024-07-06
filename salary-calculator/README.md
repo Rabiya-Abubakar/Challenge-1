@@ -1,5 +1,6 @@
-Speed Detector Program
-Description
+SPEED DETECTOR GENERATOR
+
+DESCRIPTION
 This program takes the speed of a car as input and determines the driver's demerit points based on the speed limit.
 
 If the speed is less than 70 km/h, it prints "Ok".

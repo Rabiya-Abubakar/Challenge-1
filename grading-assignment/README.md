@@ -1,7 +1,7 @@
 # STUDENT GRADE GENERATOR
 
 ## DESCRIPTION
-This project contains a function that prompts the user to input student marks and returns the corresponding grade based on the input.
+This project contains a  JavaScript function that prompts the user to input student marks and returns the corresponding grade based on the input.
 
 ## USAGE
 1. Clone the repository.

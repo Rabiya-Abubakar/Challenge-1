@@ -1,24 +1,42 @@
-document.getElementById('calculateButton').addEventListener('click', function() {
-    calculateDemeritPoints();
-});
+function checkSpeed() {
+    let speed = prompt("Enter the speed of the car (in km/h):");
 
-function calculateDemeritPoints() {
-    const speed = parseInt(document.getElementById('speedInput').value);
+    if (speed === null || speed.trim() === "") {
+        console.log("No input provided.");
+        return;
+    }
+
+    speed = Number(speed);
+
+    if (isNaN(speed) || speed < 0) {
+        console.log("Please enter a valid speed.");
+        return;
+    }
+
+    console.log(`Entered speed: ${speed}`);
+
     const speedLimit = 70;
-    let demeritPoints = 0;
-  
-    if (speed > speedLimit) {
-        demeritPoints = Math.floor((speed - speedLimit) / 5);
-    }
-  
-    const resultElement = document.getElementById('result');
-  
-    if (demeritPoints > 0) {
-        resultElement.innerText = `Points: ${demeritPoints}`;
-        if (demeritPoints > 12) {
-            resultElement.innerText += "\nLicense suspended";
-        }
+    const kmPerDemeritPoint = 5;
+    const maxDemeritPoints = 12;
+
+    let response;
+
+    if (speed <= speedLimit) {
+        response = "Ok";
     } else {
-        resultElement.innerText = "Ok";
+        const demeritPoints = Math.floor((speed - speedLimit) / kmPerDemeritPoint);
+        console.log(`Demerit Points: ${demeritPoints}`);
+
+        if (demeritPoints > maxDemeritPoints) {
+            response = `License suspended. Demerit Points: ${demeritPoints}`;
+        } else {
+            response = `Demerit Points: ${demeritPoints}`;
+        }
     }
+
+    console.log("Response:", response);
+    alert(response);
 }
+
+checkSpeed();
+
